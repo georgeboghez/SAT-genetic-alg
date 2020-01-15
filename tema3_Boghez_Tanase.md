@@ -220,12 +220,7 @@ Algoritmii genetici ar putea fi modificati, spre exemplu, putand fi alese mai mu
 ## Bibliografie
 
 [http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/benchmarks.htm](http://sites.nlsde.buaa.edu.cn/~kexu/benchmarks/benchmarks.htm)  
-
 [https://en.wikipedia.org/wiki/Boolean_satisfiability_problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem)  
-  
 [https://profs.info.uaic.ro/~pmihaela/GA/](https://profs.info.uaic.ro/~pmihaela/GA/)  
-  
 [https://profs.info.uaic.ro/~pmihaela/GA/laborator3.html](https://profs.info.uaic.ro/~pmihaela/GA/laborator3.html)  
-  
 [https://profs.info.uaic.ro/~marta/ga/L3/](https://profs.info.uaic.ro/~marta/ga/L3/)
-  
