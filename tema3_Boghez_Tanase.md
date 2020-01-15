@@ -180,7 +180,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
 | 19084      | Genetic  | 19080 | 99.9790%        | 19078.60    | 1.624807681       | 2.64        | 2h   |
 | 19084      | Euristic | 19046 | 99.8009%        | 18974.43333 | 132.4677781       | 17547.71222 | 2h   |
   
-![enter image description here](https://i.imgur.com/pUh4feT.png)
+![SAT - 19084 clauze](https://i.imgur.com/pUh4feT.png)
   
 | Nr. Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta | Timp |
 |------------|----------|-------|-----------------|---------|-------------------|----------|------|
