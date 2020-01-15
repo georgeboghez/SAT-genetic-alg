@@ -85,7 +85,7 @@ def calculate_satisfiability(formula, assignation):
             numberOfTrueClauses += 1
     return numberOfTrueClauses
 ```
-Pentru a ajunge la noi generatii, dupa selectia facuta anterior, cromozomii trec prin doua metode de alterare ce constau in incrucisare (**crossover**) si mutatie (**mutation**). Dupa alegerea cu o probabilitate stabilita initial a cromozomilor ce vor participa in procesul de incrucisare, pentru fiecare pereche de doi cromozomi se va selecta un punct de "taiere" la intamplare, urmand sa faca schimb de informatii in felul urmator:\
+Pentru a ajunge la noi generatii, dupa selectia facuta anterior, cromozomii trec prin doua metode de alterare ce constau in incrucisare (**crossover**) - cu o probabilitate de 80% - si mutatie (**mutation**) - cu o probabilitate de 100%. Dupa alegerea cu o probabilitate stabilita initial a cromozomilor ce vor participa in procesul de incrucisare, pentru fiecare pereche de doi cromozomi se va selecta un punct de "taiere" la intamplare, urmand sa faca schimb de informatii in felul urmator:\
 **01 001011** -> **01** 111100\
 10 111100 -> 10 **001011**       
 \
@@ -154,7 +154,7 @@ def genPop(numberOfLiterals):
 ```
 startTime = time.time()
 globalMaximum = 0
-while endtTime - startTime < 28800:
+while endtTime - startTime < 28800 and globalMaximum != len(formula):
     bitlist = genPop(numberOfLiterals)
     initialSat = calculate_satisfiability(formula, bitlist)
     for i in range(0, len(bitlist) * 3):
