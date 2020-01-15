@@ -1,5 +1,5 @@
 
-# Comparare HC First Improvement, HC Best Improvement, Simulated Annealing, AND GENETIC ALGORITHMS
+# Comparare Algoritm Genetic - Algoritm Euristic
 -   Nume: Boghez George si Tanase Teofil
 -   An: II
 -   Grupa: A2
