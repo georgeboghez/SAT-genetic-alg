@@ -85,10 +85,11 @@ def calculate_satisfiability(formula, assignation):
             numberOfTrueClauses += 1
     return numberOfTrueClauses
 ```
-Pentru a ajunge la noi generatii, dupa selectia facuta anterior, cromozomii trec prin doua metode de alterare ce constau in incrucisare (**crossover**) si mutatie (**mutation**). Dupa alegerea cu o probabilitate stabilita initial a cromozomilor ce vor participa in procesul de incrucisare, pentru fiecare pereche de doi cromozomi se va selecta un punct de "taiere" la intamplare, urmand sa faca schimb de informatii in felul urmator:
-	**01 001011** -> **01** 111100
-		10 111100 -> 10 **001011**       
-In cadrul procesului de mutatie, am optat pentru o mutatie Greedy. Astfel, pentru fiecare locus, selectat de la stanga la dreapta, am verificat daca prin schimbarea valorii cu cealalta valoare disponibila in multimea de posibilitati (**alela**) creste fitness-ul, in caz afirmativ, valoarea ramanand modificata, iar daca sunt egale fitness-urile, exista o posibilitate de 50% pentru a reveni la forma precedenta, altfel revenind asigurat la forma anterioara. Exemplu de mutatie:
+Pentru a ajunge la noi generatii, dupa selectia facuta anterior, cromozomii trec prin doua metode de alterare ce constau in incrucisare (**crossover**) si mutatie (**mutation**). Dupa alegerea cu o probabilitate stabilita initial a cromozomilor ce vor participa in procesul de incrucisare, pentru fiecare pereche de doi cromozomi se va selecta un punct de "taiere" la intamplare, urmand sa faca schimb de informatii in felul urmator:\
+**01 001011** -> **01** 111100
+10 111100 -> 10 **001011**       
+\
+In cadrul procesului de mutatie, am optat pentru o mutatie Greedy. Astfel, pentru fiecare locus, selectat de la stanga la dreapta, am verificat daca prin schimbarea valorii cu cealalta valoare disponibila in multimea de posibilitati (**alela**) creste fitness-ul, in caz afirmativ, valoarea ramanand modificata, iar daca sunt egale fitness-urile, exista o posibilitate de 50% pentru a reveni la forma precedenta, altfel revenind asigurat la forma anterioara. Exemplu de mutatie:\
 0010110**0**0 -> 0010110**1**0 
 
 ```
@@ -177,31 +178,36 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
 |------------|----------|-------|-----------------|-------------|-------------------|-------------|------|
 | 19084      | Genetic  | 19080 | 99.9790%        | 19078.60    | 1.624807681       | 2.64        | 2h   |
 | 19084      | Euristic | 19046 | 99.8009%        | 18974.43333 | 132.4677781       | 17547.71222 | 2h   |
+\
 ![enter image description here](https://i.imgur.com/pUh4feT.png)
-
+\
 | Nr. Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta | Timp |
 |------------|----------|-------|-----------------|---------|-------------------|----------|------|
 | 43780      | Genetic  | 43774 | 99.9863%        | 43768.8 | 7.152621897       | 51.16    | 4h   |
 | 43780      | Euristic | 43663 | 99.7328%        | 43565.4 | 63.65092301       | 4051.44  | 4h   |
+\
 ![enter image description here](https://i.imgur.com/tmzxL3m.png)
-
+\
 | Nr. Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |------------|----------|-------|-----------------|---------|-------------------|-------------|------|
 | 61855      | Genetic  | 61849 | 99.9903%        | 61840.8 | 6.559471523       | 43.02666667 | 8h   |
 | 61855      | Euristic | 61709 | 99.7640%        | 61605.5 | 103.8713146       | 10789.25    | 8h   |
+\
 ![enter image description here](https://i.imgur.com/UuFztCg.png)
-
+\
 | Nr. Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |------------|----------|-------|-----------------|---------|-------------------|-------------|------|
 | 84508      | Genetic  | 84500 | 99.9905%        | 84493.8 | 4.110150038       | 16.89333333 | 8h   |
 | 84508      | Euristic | 84259 | 99.7054%        | 84126.1 | 142.0460841       | 20177.09    | 8h   |
+\
 ![enter image description here](https://i.imgur.com/F6XSYSS.png)
-
+\
 | Nr. Clauze | Metoda   | Maxim  | Maxim Procentaj | Media       | Deviatia Standard | Varianta    | Timp |
 |------------|----------|--------|-----------------|-------------|-------------------|-------------|------|
 | 132295     | Genetic  | 132282 | 99.9902%        | 132277.4667 | 4.014418458       | 16.11555556 | 8h   |
 | 132295     | Euristic | 131901 | 99.7022%        | 131428.7333 | 517.8364564       | 268154.5956 | 8h   |
 ![enter image description here](https://i.imgur.com/RZUDnR3.png)
+
 ## Concluzie
 Dupa cum putem observa in tabelul de rezultate, niciuna dintre abordari nu rezolva problema in timpul alocat, dar se apropie considerabil de solutia dorita, majoritatea instantelor avand un procentaj de rezolvare apropiat de 100%.
 
