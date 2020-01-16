@@ -181,6 +181,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
 | 450      | 19084  | Euristic | 19046 | 99.8009%        | 18974.43333 | 132.4677781       | 17547.71222 | 2h   |
   
 ![SAT - 450L, 19084C](https://i.imgur.com/pUh4feT.png)
+Algoritm Genetic 450 literali - Grafic
   
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|----------|------|
@@ -188,13 +189,15 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
 | 760      | 43780  | Euristic | 43663 | 99.7328%        | 43565.4 | 63.65092301       | 4051.44  | 4h   |
   
 ![SAT - 760L, 43780C](https://i.imgur.com/tmzxL3m.png)
-  
+  Algoritm Genetic 760 literali - Grafic  
+
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|-------------|------|
 | 945      | 61855  | Genetic  | 61849 | 99.9903%        | 61840.8 | 6.559471523       | 43.02666667 | 8h   |
 | 945      | 61855  | Euristic | 61709 | 99.7640%        | 61605.5 | 103.8713146       | 10789.25    | 8h   |
   
 ![SAT - 945L, 61855C](https://i.imgur.com/UuFztCg.png)
+  Algoritm Genetic 450 literali - Grafic  
   
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|-------------|------|
@@ -202,13 +205,15 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
 | 1150     | 84508  | Euristic | 84259 | 99.7054%        | 84126.1 | 142.0460841       | 20177.09    | 8h   |
   
 ![SAT - 1150L, 84508C](https://i.imgur.com/F6XSYSS.png)
-  
+  Algoritm Genetic 1150 literali - Grafic  
+
 | Literali | Clauze | Metoda   | Maxim  | Maxim Procentaj | Media       | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|--------|-----------------|-------------|-------------------|-------------|------|
 | 1534     | 132295 | Genetic  | 132282 | 99.9902%        | 132277.4667 | 4.014418458       | 16.11555556 | 8h   |
 | 1534     | 132295 | Euristic | 131901 | 99.7022%        | 131428.7333 | 517.8364564       | 268154.5956 | 8h   |
   
 ![SAT - 1534L, 132295C](https://i.imgur.com/RZUDnR3.png)
+  Algoritm Genetic 1534 literali - Grafic  
   
 ## Concluzie
 Dupa cum putem observa in tabelul de rezultate, niciuna dintre abordari nu rezolva problema in timpul alocat, dar se apropie considerabil de solutia dorita, majoritatea instantelor avand un procentaj de rezolvare apropiat de 100%.
