@@ -182,7 +182,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
   
 ![SAT - 450L, 19084C](https://i.imgur.com/pUh4feT.png)
   
-  Algoritm Genetic 450 literali - Grafic
+  Algoritm Genetic 450 literali - Grafic ^
   
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|----------|------|
@@ -191,7 +191,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
   
 ![SAT - 760L, 43780C](https://i.imgur.com/tmzxL3m.png)
   
-  Algoritm Genetic 760 literali - Grafic  
+  Algoritm Genetic 760 literali - Grafic ^  
 
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|-------------|------|
@@ -200,7 +200,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
   
 ![SAT - 945L, 61855C](https://i.imgur.com/UuFztCg.png)
   
-  Algoritm Genetic 450 literali - Grafic  
+  Algoritm Genetic 450 literali - Grafic ^  
   
 | Literali | Clauze | Metoda   | Maxim | Maxim Procentaj | Media   | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|-------|-----------------|---------|-------------------|-------------|------|
@@ -209,7 +209,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
   
 ![SAT - 1150L, 84508C](https://i.imgur.com/F6XSYSS.png)
   
-  Algoritm Genetic 1150 literali - Grafic  
+  Algoritm Genetic 1150 literali - Grafic ^   
 
 | Literali | Clauze | Metoda   | Maxim  | Maxim Procentaj | Media       | Deviatia Standard | Varianta    | Timp |
 |----------|--------|----------|--------|-----------------|-------------|-------------------|-------------|------|
@@ -218,7 +218,7 @@ Algoritmii au fost rulati de 30 de ori pentru fiecare dintre probleme, cu un tim
   
 ![SAT - 1534L, 132295C](https://i.imgur.com/RZUDnR3.png)
   
-  Algoritm Genetic 1534 literali - Grafic  
+  Algoritm Genetic 1534 literali - Grafic ^  
 
 ## Concluzie
 Dupa cum putem observa in tabelul de rezultate, niciuna dintre abordari nu rezolva problema in timpul alocat, dar se apropie considerabil de solutia dorita, majoritatea instantelor avand un procentaj de rezolvare apropiat de 100%.
